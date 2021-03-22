@@ -1,0 +1,5 @@
+Array -
+
+    List of values of any type
+
+    [4, 3, 1, 9, 7]

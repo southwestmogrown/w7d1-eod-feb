@@ -2,7 +2,17 @@
 
 // Recursive Boolean
 function recurBSearch(nums, target) {
+    const middlePoint = Math.floor(nums.length / 2);
+    const valueAtMiddlePoint = nums[middlePoint];
 
+    if(valueAtMiddlePoint === target) {
+        return true;
+    }
+
+    if(valueAtMiddlePoint < taget) {
+        const rightHalf = nums.slice(middlepoint + 1);
+        
+    }
 
 }
 
